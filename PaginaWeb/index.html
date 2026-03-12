@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaWalk | UrbanStep X1</title>
+  <meta
+    name="description"
+    content="UrbanStep X1 de NovaWalk. Zapatilla urbana unisex con diseño minimalista, comodidad diaria y experiencia inmersiva de compra."
+  />
+  <link rel="stylesheet" href="style.css" />
+
+  <script
+    type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+</head>
+<body>
+  <header class="cabecera">
+    <div class="logo">NovaWalk</div>
+
+    <nav class="navegacion">
+      <a href="#producto">Producto</a>
+      <a href="#detalles">Detalles</a>
+      <a href="#confianza">Confianza</a>
+    </nav>
+
+    <button class="boton-carrito" aria-label="Abrir carrito">🛒</button>
+  </header>
+
+  <main>
+    <section class="seccion-principal" id="producto">
+      <div class="texto-principal">
+        <p class="texto-destacado">Experiencia Omnicanal con Realidad Aumentada</p>
+        <h1>UrbanStep X1</h1>
+
+        <p class="subtitulo">
+          Zapatilla urbana unisex de estilo minimalista, ligera y cómoda,
+          diseñada para el día a día y conectada con una experiencia de compra inmersiva.
+        </p>
+
+        <div class="caja-precio">
+          <span class="precio">49,99 €</span>
+          <span class="impuesto">IVA (21%) incluido</span>
+        </div>
+
+        <div class="acciones-principales">
+          <a href="#compra" class="boton boton-primario">Comprar ahora</a>
+          <a href="#modelo3d" class="boton boton-secundario">Ver modelo 3D</a>
+        </div>
+      </div>
+
+      <div class="visor-principal" id="modelo3d">
+        <model-viewer
+          src="shoe_vans.glb"
+          alt="Modelo 3D de la zapatilla UrbanStep X1"
+          camera-controls
+          auto-rotate
+          shadow-intensity="1"
+          exposure="1"
+          ar
+          ar-modes="webxr scene-viewer quick-look"
+          class="visor-modelo">
+        </model-viewer>
+      </div>
+    </section>
+
+    <section class="seccion-caracteristicas">
+      <article class="tarjeta-caracteristica">
+        <h2>Diseño urbano</h2>
+        <p>Estética minimalista y versátil para combinar con looks casuales y streetwear.</p>
+      </article>
+
+      <article class="tarjeta-caracteristica">
+        <h2>Comodidad diaria</h2>
+        <p>Plantilla acolchada y suela flexible pensadas para caminar con confort durante todo el día.</p>
+      </article>
+
+      <article class="tarjeta-caracteristica">
+        <h2>Compra rápida</h2>
+        <p>Desde la experiencia en tienda física hasta la conversión online con un solo toque.</p>
+      </article>
+    </section>
+
+    <section class="seccion-detalles" id="detalles">
+      <div class="texto-detalles">
+        <h2>Detalles del producto</h2>
+        <p>
+          UrbanStep X1 ha sido concebida como una zapatilla de uso diario para un público joven
+          que valora el equilibrio entre diseño, funcionalidad y experiencia digital.
+        </p>
+
+        <ul class="lista-especificaciones">
+          <li><strong>Marca:</strong> NovaWalk</li>
+          <li><strong>Modelo:</strong> UrbanStep X1</li>
+          <li><strong>Tipo:</strong> Zapatilla urbana unisex</li>
+          <li><strong>Exterior:</strong> Malla transpirable</li>
+          <li><strong>Suela:</strong> Goma flexible antideslizante</li>
+          <li><strong>Interior:</strong> Plantilla acolchada</li>
+          <li><strong>Público objetivo:</strong> 18 a 35 años</li>
+        </ul>
+      </div>
+
+      <aside class="tarjeta-precio" id="compra">
+        <h2>Precio</h2>
+        <p class="precio-principal">49,99 €</p>
+        <p class="nota-precio">Precio final con IVA incluido</p>
+
+        <div class="desglose-precio">
+          <p><span>Base imponible:</span> <span>41,31 €</span></p>
+          <p><span>IVA 21%:</span> <span>8,68 €</span></p>
+          <p><span>Total:</span> <span>49,99 €</span></p>
+        </div>
+
+        <a href="#" class="boton boton-primario boton-completo">Finalizar compra</a>
+        <p class="nota-pequena">Pago seguro · Envío 24/48h · Devolución en 30 días</p>
+      </aside>
+    </section>
+
+    <section class="seccion-confianza" id="confianza">
+      <h2>Por qué confiar en NovaWalk</h2>
+
+      <div class="rejilla-confianza">
+        <article class="tarjeta-confianza">
+          <h3>Envío rápido</h3>
+          <p>Preparación del pedido en 24/48 horas para ofrecer una experiencia ágil.</p>
+        </article>
+
+        <article class="tarjeta-confianza">
+          <h3>Devolución sencilla</h3>
+          <p>Periodo de devolución de 30 días para comprar con mayor tranquilidad.</p>
+        </article>
+
+        <article class="tarjeta-confianza">
+          <h3>Pago seguro</h3>
+          <p>La web actúa como capa de confianza y transacción dentro del ecommerce inmersivo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion-testimonio">
+      <blockquote>
+        “La experiencia de ver el producto en 3D antes de comprarlo hace que la decisión sea mucho más fácil.”
+      </blockquote>
+      <p>— Cliente NovaWalk</p>
+    </section>
+  </main>
+
+  <footer class="pie-pagina">
+    <div>
+      <h3>NovaWalk</h3>
+      <p>Moda urbana conectada con experiencias inmersivas de compra.</p>
+    </div>
+
+    <div>
+      <h4>Información legal</h4>
+      <ul>
+        <li><a href="#">Aviso legal</a></li>
+        <li><a href="#">Política de privacidad</a></li>
+        <li><a href="#">Política de devoluciones</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Contacto</h4>
+      <p>Email: info@novawalk.com</p>
+      <p>Instagram: @novawalk</p>
+    </div>
+  </footer>
+</body>
+</html>
